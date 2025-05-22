@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Clock, BookOpen, X, Fish, EggFried } from "lucide-react";
@@ -40,10 +39,12 @@ const HealthyRecipes = () => {
       ingredients: 7,
       calories: "310",
       protein: "28g",
-      image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&auto=format&fit=crop&q=80",
+      image:
+        "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&auto=format&fit=crop&q=80",
       chef: "Emma Wilson",
       recipeContent: {
-        description: "Hidangan ikan trout panggang yang lembut dan lezat dengan tambahan rempah dan perasan lemon segar. Sangat bagus untuk makan malam keluarga yang sehat.",
+        description:
+          "Hidangan ikan trout panggang yang lembut dan lezat dengan tambahan rempah dan perasan lemon segar. Sangat bagus untuk makan malam keluarga yang sehat.",
         ingredientsList: [
           "2 fillet ikan trout (sekitar 170g per fillet)",
           "2 sendok makan minyak zaitun",
@@ -51,7 +52,7 @@ const HealthyRecipes = () => {
           "1 sendok teh timi kering",
           "1 sendok makan daun peterseli cincang",
           "1 buah lemon, setengah dipotong tipis, setengah untuk perasan",
-          "Garam dan merica secukupnya"
+          "Garam dan merica secukupnya",
         ],
         instructions: [
           "Panaskan oven hingga suhu 200°C dan siapkan loyang panggang dengan aluminium foil.",
@@ -60,22 +61,24 @@ const HealthyRecipes = () => {
           "Oleskan campuran minyak ke atas ikan dan bumbui dengan garam dan merica.",
           "Letakkan irisan lemon di atas ikan dan peras setengah lemon lainnya ke atasnya.",
           "Tutup dengan aluminium foil dan panggang selama 15-20 menit atau hingga ikan matang sempurna.",
-          "Taburi dengan sisa peterseli sebelum disajikan."
+          "Taburi dengan sisa peterseli sebelum disajikan.",
         ],
-        tips: "Anda dapat mengganti ikan trout dengan ikan salmon atau ikan putih lokal lainnya sesuai ketersediaan."
-      }
+        tips: "Anda dapat mengganti ikan trout dengan ikan salmon atau ikan putih lokal lainnya sesuai ketersediaan.",
+      },
     },
     {
       id: "recipe-2",
-      title: "Taco Tilapia dengan Salsa Alpukat",
+      title: "Keumamah ala aceh",
       prepTime: "20 menit",
       ingredients: 9,
       calories: "350",
       protein: "24g",
-      image: "https://images.unsplash.com/photo-1484980972926-edee96e0960d?w=500&auto=format&fit=crop&q=80",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGZJlsSyr6T1D1jAD4TwLd4cmhMPabOapXzA&s",
       chef: "Michael Chen",
       recipeContent: {
-        description: "Taco ikan tilapia yang renyah dengan salsa alpukat segar. Hidangan meksiko dengan sentuhan sehat yang sempurna untuk makan siang atau makan malam santai.",
+        description:
+          "Taco ikan tilapia yang renyah dengan salsa alpukat segar. Hidangan meksiko dengan sentuhan sehat yang sempurna untuk makan siang atau makan malam santai.",
         ingredientsList: [
           "500g fillet ikan tilapia",
           "2 sendok makan minyak zaitun",
@@ -87,7 +90,7 @@ const HealthyRecipes = () => {
           "1/4 bawang bombay, cincang halus",
           "1 buah jeruk nipis",
           "Daun ketumbar secukupnya",
-          "Garam dan merica secukupnya"
+          "Garam dan merica secukupnya",
         ],
         instructions: [
           "Campurkan bubuk cabai, jintan, garam dan merica dalam mangkuk kecil.",
@@ -96,10 +99,10 @@ const HealthyRecipes = () => {
           "Goreng ikan selama 3-4 menit per sisi hingga matang dan mudah dipisahkan dengan garpu.",
           "Untuk salsa: campurkan alpukat yang dihaluskan, tomat cincang, bawang bombay, perasan jeruk nipis, daun ketumbar, garam dan merica dalam mangkuk.",
           "Panaskan tortilla jagung di atas api atau dalam wajan.",
-          "Isi tortilla dengan potongan ikan tilapia dan salsa alpukat."
+          "Isi tortilla dengan potongan ikan tilapia dan salsa alpukat.",
         ],
-        tips: "Tambahkan kol ungu yang diiris tipis dan saus yogurt untuk rasa dan tekstur tambahan."
-      }
+        tips: "Tambahkan kol ungu yang diiris tipis dan saus yogurt untuk rasa dan tekstur tambahan.",
+      },
     },
     {
       id: "recipe-3",
@@ -108,10 +111,12 @@ const HealthyRecipes = () => {
       ingredients: 8,
       calories: "290",
       protein: "26g",
-      image: "https://images.unsplash.com/photo-1611599539392-0198d33c4c1e?w=500&auto=format&fit=crop&q=80",
+      image:
+        "https://images.unsplash.com/photo-1611599539392-0198d33c4c1e?w=500&auto=format&fit=crop&q=80",
       chef: "Sophia Rodriguez",
       recipeContent: {
-        description: "Fillet ikan lele yang dibalut dengan campuran rempah, menghasilkan hidangan yang renyah di luar dan lembut di dalam. Cocok disajikan dengan salad segar.",
+        description:
+          "Fillet ikan lele yang dibalut dengan campuran rempah, menghasilkan hidangan yang renyah di luar dan lembut di dalam. Cocok disajikan dengan salad segar.",
         ingredientsList: [
           "4 fillet ikan lele (sekitar 150g per fillet)",
           "1 cangkir tepung terigu",
@@ -121,7 +126,7 @@ const HealthyRecipes = () => {
           "1 cangkir remah roti panko",
           "2 sendok makan minyak zaitun",
           "Garam dan merica secukupnya",
-          "Irisan lemon untuk penyajian"
+          "Irisan lemon untuk penyajian",
         ],
         instructions: [
           "Panaskan oven hingga suhu 200°C dan siapkan loyang panggang dengan aluminum foil.",
@@ -131,11 +136,11 @@ const HealthyRecipes = () => {
           "Balut setiap fillet ikan dengan tepung berbumbu, celupkan ke dalam telur, kemudian balut dengan remah roti panko.",
           "Letakkan fillet ikan yang sudah dibalut di atas loyang panggang dan percikkan minyak zaitun di atasnya.",
           "Panggang selama 15-20 menit hingga keemasan dan matang sempurna.",
-          "Sajikan dengan irisan lemon segar."
+          "Sajikan dengan irisan lemon segar.",
         ],
-        tips: "Untuk hasil yang lebih sehat, Anda dapat memanggang ikan ini alih-alih menggorengnya. Sajikan dengan salad segar atau kentang panggang."
-      }
-    }
+        tips: "Untuk hasil yang lebih sehat, Anda dapat memanggang ikan ini alih-alih menggorengnya. Sajikan dengan salad segar atau kentang panggang.",
+      },
+    },
   ];
 
   const handleOpenRecipe = (id: string) => {
@@ -152,18 +157,18 @@ const HealthyRecipes = () => {
             dibuat oleh koki profesional dan ahli gizi.
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {recipes.map((recipe, index) => (
-            <div 
+            <div
               key={recipe.id}
               className="card overflow-hidden opacity-0 animate-fade-in"
               style={{ animationDelay: `${(index + 1) * 100}ms` }}
             >
               <div className="relative">
-                <img 
-                  src={recipe.image} 
-                  alt={recipe.title} 
+                <img
+                  src={recipe.image}
+                  alt={recipe.title}
                   className="w-full h-48 object-cover"
                 />
                 <div className="absolute top-3 right-3">
@@ -173,15 +178,17 @@ const HealthyRecipes = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="p-5">
                 <div className="flex items-center mb-3">
                   <BookOpen className="h-4 w-4 text-ocean mr-1" />
-                  <span className="text-sm text-gray-500">Resep dari {recipe.chef}</span>
+                  <span className="text-sm text-gray-500">
+                    Resep dari {recipe.chef}
+                  </span>
                 </div>
-                
+
                 <h3 className="font-bold text-xl mb-3">{recipe.title}</h3>
-                
+
                 <div className="flex space-x-4 mb-4">
                   <div className="flex-1">
                     <p className="text-sm text-gray-500">Kalori</p>
@@ -196,9 +203,9 @@ const HealthyRecipes = () => {
                     <p className="font-bold">{recipe.ingredients}</p>
                   </div>
                 </div>
-                
-                <Button 
-                  variant="outline" 
+
+                <Button
+                  variant="outline"
                   className="w-full hover:bg-ocean hover:text-white"
                   onClick={() => handleOpenRecipe(recipe.id)}
                 >
@@ -208,15 +215,17 @@ const HealthyRecipes = () => {
             </div>
           ))}
         </div>
-        
+
         <div className="text-center mt-10">
-          <Button className="btn-primary">
-            Jelajahi Semua Resep
-          </Button>
+          <Button className="btn-primary">Jelajahi Semua Resep</Button>
         </div>
 
         {recipes.map((recipe) => (
-          <Dialog key={recipe.id} open={openRecipe === recipe.id} onOpenChange={(open) => !open && setOpenRecipe(null)}>
+          <Dialog
+            key={recipe.id}
+            open={openRecipe === recipe.id}
+            onOpenChange={(open) => !open && setOpenRecipe(null)}
+          >
             <DialogContent className="max-w-3xl h-[80vh] overflow-y-auto">
               <DialogHeader>
                 <div className="flex items-center justify-between">
@@ -239,17 +248,17 @@ const HealthyRecipes = () => {
               </DialogHeader>
 
               <div className="mt-4">
-                <img 
-                  src={recipe.image} 
-                  alt={recipe.title} 
+                <img
+                  src={recipe.image}
+                  alt={recipe.title}
                   className="w-full h-64 object-cover rounded-lg mb-6"
                 />
-                
+
                 <div className="mb-6">
                   <h3 className="text-lg font-bold mb-2">Deskripsi</h3>
                   <p>{recipe.recipeContent?.description}</p>
                 </div>
-                
+
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
                   <div>
                     <h3 className="text-lg font-bold mb-2 flex items-center">
@@ -257,12 +266,14 @@ const HealthyRecipes = () => {
                       Bahan-bahan
                     </h3>
                     <ul className="list-disc pl-5 space-y-1">
-                      {recipe.recipeContent?.ingredientsList.map((ingredient, idx) => (
-                        <li key={idx}>{ingredient}</li>
-                      ))}
+                      {recipe.recipeContent?.ingredientsList.map(
+                        (ingredient, idx) => (
+                          <li key={idx}>{ingredient}</li>
+                        )
+                      )}
                     </ul>
                   </div>
-                  
+
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h3 className="text-lg font-bold mb-2">Info Nutrisi</h3>
                     <div className="grid grid-cols-2 gap-4">
@@ -277,16 +288,18 @@ const HealthyRecipes = () => {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="mb-6">
                   <h3 className="text-lg font-bold mb-2">Cara Memasak</h3>
                   <ol className="list-decimal pl-5 space-y-2">
                     {recipe.recipeContent?.instructions.map((step, idx) => (
-                      <li key={idx} className="pl-2">{step}</li>
+                      <li key={idx} className="pl-2">
+                        {step}
+                      </li>
                     ))}
                   </ol>
                 </div>
-                
+
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h3 className="text-lg font-bold mb-2">Tips</h3>
                   <p>{recipe.recipeContent?.tips}</p>
