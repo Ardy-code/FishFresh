@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Fish } from "lucide-react";
 
@@ -7,7 +6,7 @@ const Logo = () => {
     <a href="#" className="flex items-center gap-2">
       <Fish className="h-8 w-8 text-ocean" />
       <span className="font-bold text-2xl text-gray-800">
-        Aqua<span className="text-ocean">harvest</span>
+        Fish<span className="text-ocean">Fresh</span>
       </span>
     </a>
   );
