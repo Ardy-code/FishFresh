@@ -33,7 +33,7 @@ export const FeaturedProducts = ({
       price: 12.99 * 15000,
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFhqarf-YcRhUdVaqN_4CJvF91bAMWrmBqjQ&s",
-      farmer: "Peternakan Lembah Hijau",
+      farmer: "Peternakan ",
       location: "Springfield, OR",
     },
     {
